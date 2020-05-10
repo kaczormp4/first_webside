@@ -149,6 +149,12 @@ body{
       width: 60vw;
       margin: auto;
   }
+  /* kontakt */
+  .line{
+      display: block;
+      margin: 5vw;
+      font-size: 2vw;
+  }
   @media screen and (max-width: 480px) {
     .bars{
         display: block;
@@ -205,5 +211,9 @@ body{
     }
     .another-offer-track-rezerwation:hover{
         font-size: 10.5vw;
+    }
+    .line{
+        margin: 1vw;
+        font-size: 7vw;
     }
   }
