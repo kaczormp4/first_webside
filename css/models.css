@@ -18,7 +18,20 @@
 }
 @media screen and (max-width: 480px) {
     .car-models{
+        width: 80vw;  
+        height: auto;  
+        display:block;
+        flex-wrap: nowrap; 
+    }
+    .car-models-foto{
         width: 80vw;
     }
-
+    .car-models-foto > img{
+        width: 80vw;
+    }
+    .car-models-description{
+        font-size: 7vw;
+        width: 80vw;
+        text-align: center;
+    }
   }

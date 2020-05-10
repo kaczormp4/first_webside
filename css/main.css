@@ -11,6 +11,20 @@ body{
     height:5vh;
     background-color: white;
 }
+.bars{
+    display: none;
+    top:0;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: rgb(185, 185, 185);
+}
+.bars > img{
+    margin: 1vw;
+    margin-bottom: 0;
+    width: 5vh;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
 .header{
     background-color: rgb(185, 185, 185);
     color: blanchedalmond;
@@ -136,6 +150,31 @@ body{
       margin: auto;
   }
   @media screen and (max-width: 480px) {
+    .bars{
+        display: block;
+    }
+    .about{
+        display: none;
+        --word-wrap: break-word:
+    }
+    .header{
+        display: none; 
+        top:6vh;
+        position: -webkit-sticky;
+        position: sticky;
+       -- top: auto;
+        width: 80vw;
+    }
+
+    .ccontent{
+        width: 100vw;
+    }
+    .menu{
+        width: calc(100vw - 20px);
+        
+    }
+
+
     .promo{
         width: 70vw;
         height: 40vh;
@@ -145,6 +184,26 @@ body{
     }
     .another-offer{
         width: 70vw;
-        height: 40vh;
+        height: auto;
+    }
+    .another-offer-box{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .another-offer-track{
+        margin: 0vw;
+        width: 80vw;
+        height: auto;
+    }
+    .another-offer-track-img{
+        width:70vw;
+    }
+    .another-offer-track-rezerwation{
+
+       font-size: 10vw;
+    }
+    .another-offer-track-rezerwation:hover{
+        font-size: 10.5vw;
     }
   }
