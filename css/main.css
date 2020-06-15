@@ -155,6 +155,10 @@ body{
       margin: 5vw;
       font-size: 2vw;
   }
+  /*accesories*/
+  .beforetext{
+      margin: auto;
+  }
   @media screen and (max-width: 480px) {
     .bars{
         display: block;
